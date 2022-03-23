@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CalindraD1Front/css/reset.css">
-    <link rel="stylesheet" href="../CalindraD1Front/css/style.css">
     
       <title>Calindra</title>
 </head>
@@ -20,7 +18,7 @@
             <form>
                  <label>Encontre seu produto</label> <br>
                 <input type="text" name="Busca" id="search" placeholder="Faça sua Busca" required> <br>
-                <button type="submit">BUSCAR</button>
+                <button type="submit" id="btn">BUSCAR</button>
                      
                  <div id="conteudo">
 
@@ -35,14 +33,26 @@
 
     </main>
 
-    <div id="tabela"></div>
-    <script src="./js/script.js"></script>
+    <div>
+        <table  id="tabela">
+
+        </table>
+
+        <div id="sugestao">
+
+        </div>
+
+    </div>
+
 
     <footer>
         <div class="footerDg" >
             <a class="link" href="https://www.linkedin.com/in/douglas-p-monteiro/"> &copy; Douglas Monteiro - 2022</span></a>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../CalindraD1Front/js/script.js"></script>
        
 </body>
 
